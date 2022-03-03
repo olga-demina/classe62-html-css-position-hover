@@ -1,0 +1,131 @@
+/* .container {
+    border: 2px solid orange;  
+    position: relative; 
+    width: 180px;
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+}
+
+.red {
+    background-color: red;
+    height: 50px;
+   
+}
+
+.green {
+    background-color: green;
+    position: absolute;
+    bottom: 30%;
+    right: 50%;
+    width: 50%;
+}
+
+.yellow {
+    background-color: yellow;
+    height: 50px;
+} */
+
+
+.container {
+    position: relative;
+    width: 250px;
+    height: 200px;
+    background-color: red;
+}
+
+.container-2 {
+    width: 250px;
+    height: 250px;
+    margin-top: 15px;
+    position: relative;
+    background-color: red;
+}
+
+.container-3 {
+    width: 750px;
+    height: 500px;
+    margin-top: 15px;
+    background-color: green;
+    position: relative;
+}
+
+.square-1 {
+    width: 50px;
+    height: 50px;
+}
+
+.square-2 {
+    width: 70px;
+    height: 70px;
+}
+
+.square-3 {
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+    position: relative;
+}
+
+.square-4 {
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    background-color: blueviolet;
+    top: 0;
+    right: 0;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
+
+.red {
+    background-color: red;
+}
+
+.container .green {
+    position: absolute;
+    left: 100%;
+    bottom: 0;
+}
+
+.container-2 :nth-child(2) {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.container-2 :nth-child(3) {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.container-2 .green {
+    position: absolute;
+    bottom: 35px;
+    right: 35px;
+}
+
+
+.container-3 :first-child :last-child {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.container-3 :last-child :last-child {
+   /* position: absolute;
+   top: 50px;
+   left: 10px;
+   position: relative;
+   left: 10px; */
+   margin-left: 10px;
+}
